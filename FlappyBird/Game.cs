@@ -23,8 +23,8 @@ namespace FlappyBird
 
         static Game()
         {
-            source = new AudioSource();
-            source.Volume = 0.1f;
+            //source = new AudioSource();
+            //source.Volume = 0.1f;
             clip = Audio.GetAudio("Dead");
             width = 350 ;
             height = 500 ;
@@ -141,7 +141,7 @@ namespace FlappyBird
         //Play audio of player dead
         private static void PlayDead()
         {
-            source.Play(clip);
+            //source.Play(clip);
         }
         #endregion
     }
