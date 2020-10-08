@@ -23,8 +23,8 @@ namespace FlappyBird
 
         static World()
         {
-            source = new AudioSource(3);
-            source.Volume = 1.5f;
+            //source = new AudioSource(3);
+            //source.Volume = 1.5f;
             clip = Audio.GetAudio("BackGround");
             terrainHeight = Game.Window.Height / 8;
             Gravity = new Vector2(0, 200);
@@ -118,7 +118,7 @@ namespace FlappyBird
         //Playe background music
         public static void PlayClip()
         {
-            source.Stream(clip, Game.Window.deltaTime, true);
+            //source.Stream(clip, Game.Window.deltaTime, true);
         }
     }
 }
