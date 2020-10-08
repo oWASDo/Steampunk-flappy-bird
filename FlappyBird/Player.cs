@@ -44,8 +44,8 @@ namespace FlappyBird
 
         static Player()
         {
-            source = new AudioSource();
-            source.Volume = 0.1f;
+            //source = new AudioSource();
+            //source.Volume = 0.1f;
             clip = Audio.GetAudio("Flap");
             StartPosition = new Vector2(Game.Window.Width * 0.2f, Game.Window.Height * 0.5f);
             width = Game.Window.Height / 16;
@@ -169,7 +169,7 @@ namespace FlappyBird
         //
         public static void PlayClip()
         {
-            source.Play(clip);
+            //source.Play(clip);
         }
     }
 }
